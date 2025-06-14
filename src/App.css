@@ -1,16 +1,45 @@
 /* styles.css */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+background-color: #0eba16; /* dark background */
+
+background-image:
+  /* Horizontal dashed line */
+  repeating-linear-gradient(
+    to bottom,
+    #555 1px,
+    #555 1px,
+    transparent 6px,
+    #aaa 1px,
+    #aaa 1px,
+    transparent 6px
+  ),
+  /* Vertical dashed line */
+  repeating-linear-gradient(
+    to right,
+    #555 1px,
+    #555 1px,
+    transparent 6px,
+    #aaa 1px,
+    #aaa 1px,
+    transparent 6px
+  ),
+  /* Dots at intersections (pseudo-dots using radial gradients) */
+  radial-gradient(circle, #ccc 1px, transparent 2px);
+
+background-size: 50px 50px;
+background-position: 0 0, 0 0, 25px 25px; /* offset dots */
+
 }
 
 .app-container {
   background: #fff;
+  margin-left: 100px;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -18,8 +47,8 @@ body {
   text-align: center;
 }
 
-h2 {
-  color: #333;
+h1 , h2 {
+  color: #0af606d0;
 }
 
 .todo-input {
