@@ -47,8 +47,14 @@ background-position: 0 0, 0 0, 25px 25px; /* offset dots */
   text-align: center;
 }
 
-h1 , h2 {
+h1 {
   color: #0af606d0;
+}
+
+span img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
 }
 
 .todo-input {
