@@ -20,20 +20,6 @@ This project is a simple To-Do List application built with React and Zustand for
 
 ## Getting Started
 
-1. Clone the project:
-```bash
-git clone [project-url]
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the project:
-```bash
-npm start
-```
 
 ## Project Structure
 
